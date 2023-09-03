@@ -40,5 +40,5 @@ output = template.render(contact=data[0]["contact"], lookups=data[0]["lookups"])
 
 print(output)
 
-with open("../dynamic_[Marissa Vargas]", "w", encoding="utf-8") as f:
+with open("../dynamic_[Marissa Vargas].html", "w", encoding="utf-8") as f:
     f.write(output)
